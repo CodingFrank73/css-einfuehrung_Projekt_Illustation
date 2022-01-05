@@ -1,0 +1,97 @@
+/* Font: Merriweather, Lato
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
+
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    width: auto;
+    background-color: #fff;
+    color: #202020;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    /* border: 1px solid red; */
+    height: 2.5vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+header nav{
+    margin: 5px 10px;
+    text-align: right;
+    
+}
+
+header a{
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+
+section:nth-of-type(1){
+    border: 1px solid blue;
+    height: 95vh;
+    margin-left: 10%;
+    background: url(../img/illustration1.gif);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 54vw 0vh;
+}
+
+section:nth-of-type(1) h2{
+    /* border: 1px solid red; */
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+    letter-spacing: 1px;
+
+}
+section:nth-of-type(1) p{
+    /* border: 1px solid blue; */
+    margin-top: 2vh;
+    height: 16vh;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    line-height: 3rem
+}
+
+section:nth-of-type(1) article{
+    /* border: 1px solid brown; */
+    margin-top: 20vh;
+    width: 40vw;
+}
+
+
+section:nth-of-type(1) div{
+    display: inline-block;
+    height: 100px;
+    font-family: 'Merriweather', serif;
+    font-size: .9rem;
+    margin-top: 15px;
+}
+
+section:nth-of-type(1) div a{
+    border-radius: 8px;
+    padding: 15px 40px;
+}
+
+section:nth-of-type(1) div:nth-of-type(1) a{
+    background-color: #202020;
+    color: #fff;
+    box-shadow: 1px 2px 3px #666;
+}
+
+section:nth-of-type(1) div:nth-of-type(2) a{
+    box-shadow: 1px 2px 3px #666;
+}
+
+
