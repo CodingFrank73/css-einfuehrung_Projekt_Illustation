@@ -208,7 +208,7 @@ section:nth-of-type(5) img:hover{
 }
 
 section:nth-of-type(6){
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 180vh;
     margin-left: 10%;
 }
@@ -286,21 +286,34 @@ section:nth-of-type(6) article:nth-of-type(2) a{
 }
 
 
-
-
-
-
 section:nth-of-type(7){
-    border: 1px solid blue;
-    height: 110vh;
+    /* border: 1px solid blue; */
+    height: 50vh;
     margin-left: 10%;
 }
+
+section:nth-of-type(7) h2{
+    /* border: 1px solid blue; */
+    margin-bottom: 80px;
+    text-align: center;
+}
+
 section:nth-of-type(7) p{
     /* border: 1px solid blue; */
     margin-top: 2vh;
-    padding: 10px 370px;
-    height: 16vh;
     font-family: 'Merriweather', serif;
-    font-size: 1.8rem;
-    line-height: 3rem
+    font-size: 1.2rem;
+    text-align: center;
+    color: #969da0;
+    
 }
+section:nth-of-type(7) a{
+    /* border: 1px solid blue; */
+    display: block;
+    margin-top: 2vh;
+    font-family: 'Merriweather', serif;
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
