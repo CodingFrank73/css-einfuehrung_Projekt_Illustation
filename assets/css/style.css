@@ -18,7 +18,7 @@ a{
     text-decoration: none;
 }
 
-h2{
+h2, h3{
     margin-bottom: 2vh;
     font-size: 4rem;
     letter-spacing: 1px;
@@ -94,7 +94,6 @@ section:nth-of-type(2) article{
 
 /* ection:nth-of-type(3) */
 section:nth-of-type(3){
-    /* border: 1px solid blue; */
     height: 100vh;
     background: url(../img/illustration3.png) no-repeat;
     background-size: 40%;
@@ -108,7 +107,6 @@ section:nth-of-type(3) article{
 
 /* section:nth-of-type(4) */
 section:nth-of-type(4){
-    border: 1px solid blue;
     height: 100vh;
 }
 
@@ -131,7 +129,6 @@ section:nth-of-type(4) img{
 
 /* section:nth-of-type(5) */
 section:nth-of-type(5){
-    border: 1px solid blue;
     height: 210vh;
 }
 
@@ -154,68 +151,46 @@ section:nth-of-type(5) img{
 /* section:nth-of-type(6)  hier weiter*/
 section:nth-of-type(6){
     border: 1px solid blue;
-    height: 180vh;
+    height: 140vh;
 }
 
 section:nth-of-type(6) article:nth-of-type(1){
-    border: 1px solid green;
-    margin-top: 20vh;
-    width: auto;
+    padding: 5% 22% 0% 22%;
     text-align: center;
-}
-
-section:nth-of-type(6) p{
-    margin-top: 2vh;
-    padding: 10px 370px;
 }
 
 section:nth-of-type(6) article:nth-of-type(2){
     border-radius: 20px;
     background-color: #24bff21f;
-    margin-top: 20vh;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    height: 82vh;
+    height: 70vh;
+    margin: 0% 38% 0% 38%;
+    padding: 5% 0% 0% 0%;
     text-align: center;
 }
 
-section:nth-of-type(6) article:nth-of-type(2) p:nth-of-type(1){
-    height: 8vh;
-    padding: 100px 20px 50px 20px;
-    font-size: 2.5rem;
+h3{
+    margin: 15% 0;
 }
-
 section:nth-of-type(6) article:nth-of-type(2) p:nth-of-type(2){
-    height: 8vh;
-    padding: 20px;
-    font-size: 4.5rem;
-    
-}
-section:nth-of-type(6) article:nth-of-type(2) p:nth-of-type(3){
-    height: 5vh;
-    padding: 5px 200px;
     font-size: 1.8rem;
     color: #969da0;
 }
 
 section:nth-of-type(6) article:nth-of-type(2) ul{
     list-style: none;
-    font-family: 'Merriweather', serif;
 }
+
 section:nth-of-type(6) article:nth-of-type(2) ul li{
     margin: 5px;
-    
 }
 
 section:nth-of-type(6) article:nth-of-type(2) a{
-    border-radius: 10px;
-    display: block;
-    margin: 50px 100px;
-    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 50px 50px;
+    padding: 15px 70px;
     background-color: #24bff2;
     color: #fff;
-    font-family: 'Merriweather', serif;
-    font-size: 1rem;
 }
 
 section:nth-of-type(7){
